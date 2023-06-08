@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="128x128" href="Asset/Images/Hero-Section/Logo.png">
+      <!-- STYLE SHEET -->
+  <link rel="stylesheet" href="style.css">
     <title>Blog Website</title>
 </head>
 <body>
-    
+    <!-- NAVIGATION  -->
+  <nav>
+    <img src="Asset/Images/Hero-Section/Logo.png" alt="">
+    <div class="navigation">
+      <ul id="navbar">
+        <i id="menu-close" class="fa-solid fa-xmark"></i>
+        <li><a class="underline" href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Gaming</a></li>
+        <li><a href="#">Health</a></li>
+      </ul>
+      <img id="menu-button" src="Asset/Images/Icons/menu bar_icon.png" alt="menu">
+    </div>
+  </nav>
+
+    <!-- HOME -->
+    <section>
+        
+    </section>
+  <script>
+    $('#menu-button').click(function(){
+      $('nav .navigation ul').addClass('active')
+    })
+    $('#menu-close').click(function(){
+      $('nav .navigation ul').removeClass('active')
+    })
+  </script>
 </body>
 </html>
