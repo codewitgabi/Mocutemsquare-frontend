@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    --white: #ffffff;
-    --black: #000000;
-    --red: #ff0000;
-    --purple: #5200FF;
-    --green: #00B347;
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ff0000;
+  --purple: #5200ff;
+  --green: #00b347;
 }
 
 * {
@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 h1,
@@ -55,9 +55,8 @@ h6 {
 
 p {
   font-size: 16px;
-  margin: 15px 0 20px 0;
+  margin: 10px 0;
 }
-
 
 body {
   width: 100%;
@@ -65,6 +64,7 @@ body {
 
 #backdrop {
   background-image: url(Asset/Images/Hero-Section/HERO.png);
+  /* background-position: top 50% right 30%; */
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,6 +91,10 @@ body {
   list-style: none;
   padding: 0 20px;
   position: relative;
+}
+
+.right-end {
+  padding-right: 0 !important;
 }
 
 #navbar li a {
@@ -121,7 +125,7 @@ body {
   background-color: white;
   border-radius: 5px;
   overflow: hidden;
-  width: 300px;
+  width: 250px;
 }
 
 .search-input {
@@ -136,7 +140,7 @@ body {
   background-color: transparent;
   border: none;
   color: gray;
-  padding: 10px;
+  padding: 7px;
   cursor: pointer;
 }
 
@@ -152,6 +156,91 @@ body {
 #close {
   display: none;
 }
+
+/* HERO SECTION  */
+#hero-section {
+  padding-left: 80px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.backdrop-red {
+  padding: 10px;
+  background-color: var(--red);
+  width: 105px;
+  height: 39px;
+  color: var(--white);
+}
+
+.backdrop-white {
+  color: var(--black);
+  background: var(--white);
+  padding: 10px;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.first {
+  width: 470px;
+}
+
+.second {
+  width: 405px;
+}
+
+.third {
+  width: 270px;
+}
+
+.dummy-time-stamp {
+  display: flex;
+  gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 799px) {
   .section-p1 {
@@ -173,7 +262,7 @@ body {
     height: 100vh;
     width: 250px;
     /* background: linear-gradient(to bottom, #00020E, #29172D 50%, #530214); */
-    background: rgba(0, 4, 33, 0.70);
+    background: rgba(0, 4, 33, 0.7);
     backdrop-filter: blur(4.5px);
     /* opacity: 0.85; */
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
@@ -213,7 +302,6 @@ body {
     color: #fff;
     font-size: 24px;
   }
-
 
   #backdrop {
     /* background-image: url(Asset/Images/Hero-Section/HERO.png); */
