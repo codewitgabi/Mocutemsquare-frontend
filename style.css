@@ -311,8 +311,33 @@ body {
     background-position: top 30% right 30%;
   }
 
-  #hero {
-    height: 75vh;
-    padding: 0 80px;
+  #hero-section {
+    padding-left: 20px;
   }
+
+  .backdrop-white {
+    font-size: 25px;
+  }
+
+  .first {
+    width: 300px;
+  }
+
+  .second {
+    width: 263px;
+  }
+
+  .third {
+    width: 176px;
+  }
+  
+  .dummy-time-stamp {
+    align-items: center;
+    font-size: 10px;
+}
+
+.dummy-time-stamp img {
+  width: 15px;
+  height: 15px;
+}
 }
