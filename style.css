@@ -63,7 +63,7 @@ body {
 }
 
 #backdrop {
-  background-image: url(Asset/Images/Hero-Section/HERO.png);
+  background-image: url(Asset/Images/Hero-Section/Hero-svg.svg);
   /* background-position: top 50% right 30%; */
   height: 100vh;
   background-size: cover;
