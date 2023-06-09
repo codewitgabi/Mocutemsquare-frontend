@@ -32,12 +32,12 @@ h6 {
 
 h1 {
   font-size: 50px;
-  line-height: 64px;
+  /* line-height: 64px; */
 }
 
 h2 {
   font-size: 46px;
-  line-height: 54px;
+  /* line-height: 54px; */
 }
 
 h3 {
@@ -68,6 +68,7 @@ body {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 /* HEADER SECTION  */
@@ -200,48 +201,48 @@ body {
   font-size: 12px;
 }
 
+/* SUB HERO SECTION */
+#overlap-hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  padding: 0px 80px 30px;
+  position: absolute;
+  top: 620px;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-image: url(Asset/Images/Essential-tips.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 297px;
+  height: 200px;
+}
 
+.container img {
+  margin-bottom: 10px;
+}
 
+.container a {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin: 0 10px 10px;
+}
 
+.box {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.box img {
+  margin-bottom: 0px;
+}
 
 @media (max-width: 799px) {
   .section-p1 {
@@ -331,14 +332,26 @@ body {
   .third {
     width: 176px;
   }
-  
+
   .dummy-time-stamp {
     align-items: center;
     font-size: 10px;
-}
+  }
 
-.dummy-time-stamp img {
-  width: 15px;
-  height: 15px;
-}
+  .dummy-time-stamp img {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* SUB HERO SECTION */
+  #overlap-hero-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 0;
+    gap: 24px;
+    padding: 0px 39px 30px;
+    margin: 0 auto;
+    position: absolute;
+    top: 550px;
+  }
 }
