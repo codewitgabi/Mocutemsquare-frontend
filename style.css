@@ -7,7 +7,6 @@
   --purple: #5200ff;
   --green: #00b347;
   --grey: #8c8c8c;
-;
 }
 
 * {
@@ -69,7 +68,6 @@ body {
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 /* HEADER SECTION  */
@@ -125,7 +123,6 @@ body {
   bottom: -4px;
   left: 20px;
 }
-
 
 .search-container {
   display: flex;
@@ -265,7 +262,6 @@ body {
 #more-of-us-section {
   text-align: left;
   padding: 0px 80px 50px;
-
 }
 
 #more-of-us-section h2 {
@@ -294,10 +290,10 @@ body {
   flex-direction: column;
   justify-content: flex-end;
 }
- .blog-text > img  {
+.blog-text > img {
   width: 104px;
   margin-bottom: 10px;
- }
+}
 
 .blog-text > a {
   color: var(--black);
@@ -319,52 +315,6 @@ body {
   width: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #ads {
   height: 150px;
   background: var(--black);
@@ -378,6 +328,64 @@ body {
   text-align: center;
   font-weight: 600;
 }
+
+/* MORE OF US CONT'D */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 799px) {
   .section-p1 {
@@ -481,34 +489,34 @@ body {
   #overlap-hero-section {
     flex-direction: column;
     gap: 24px;
-    padding: 20px 39px 30px;
+    padding: 40px 40px 30px;
     margin: 0 auto;
     position: inherit;
   }
 
   .box {
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 10px;
-}
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
 
-.container {
-  width: 300px;
-}
+  .container {
+    width: 300px;
+  }
 
-/* MORE OF US */
-#more-of-us-section {
-  padding: 0px 20px 50px;
-}
+  /* MORE OF US */
+  #more-of-us-section {
+    padding: 0px 20px 50px;
+  }
 
-.blog-container {
-  grid-template-columns: repeat(2, 1fr);
-}
+  .blog-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 480px) {
   .blog-container {
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 
   .blog-text > a {
@@ -518,9 +526,8 @@ body {
     width: 100%;
   }
 
-  .dummy-time-stamp {
+  .grid-box {
     align-items: center;
     font-size: 7px;
-}
-
+  }
 }
