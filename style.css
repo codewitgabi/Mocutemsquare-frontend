@@ -381,7 +381,6 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 70px;
-  /* flex-wrap: wrap; */
 }
 
 .width {
@@ -457,28 +456,6 @@ body {
   margin-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 form {
   display: flex;
   justify-content: center;
@@ -496,61 +473,11 @@ input[type="email"] {
   color: var(--black);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 /* SCROLL UP BUTTON */
 
@@ -597,7 +524,10 @@ input[type="email"] {
   .mfs-container {
     grid-template-columns: repeat(2, 1fr);
   }
-
+ 
+#footer {
+  padding: 80px 40px 60px;
+}
 }
 
 @media (max-width: 850px) {
@@ -722,6 +652,22 @@ input[type="email"] {
     padding: 0px 20px 50px;
   }
 
+  .three-div-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .width h3 {
+    text-align: center;
+  }
+
+  .copyright-2 p {
+    font-size: 14px;
+  }
+
+  .copyright a {
+    font-size: 14px;
+  }
  
 
   /* MORE OF US CONT'D  */
@@ -748,5 +694,17 @@ input[type="email"] {
 
   .mfs-container {
     grid-template-columns: 1fr;
+  }
+  
+  #footer {
+    padding: 80px 20px 50px;
+  }
+
+  .copyright-2 p {
+    font-size: 11px;
+  }
+
+  .copyright a {
+    font-size: 11px;
   }
 }
