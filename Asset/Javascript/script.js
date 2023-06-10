@@ -14,3 +14,23 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+
+
+window.addEventListener('scroll', function() {
+    var scrollToTopButton = document.getElementById('scrollToTopButton');
+    if (window.pageYOffset > 200) {
+      scrollToTopButton.classList.add('show');
+    } else {
+      scrollToTopButton.classList.remove('show');
+    }
+  });
+  
+  document.getElementById('scrollToTopButton').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+  

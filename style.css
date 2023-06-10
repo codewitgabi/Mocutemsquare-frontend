@@ -371,6 +371,7 @@ body {
   font-size: 8px;
 }
 
+/* FOOTER SECTION  */
 
 
 
@@ -418,6 +419,66 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SCROLL UP BUTTON */
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.scroll-to-top-button i {
+  transform: translateY(1px);
+}
+
+.scroll-to-top-button.show {
+  opacity: 1;
+}
 
 @media (max-width: 1082px) {
   .blog-container {
@@ -583,4 +644,5 @@ body {
   .mfs-container {
     grid-template-columns: 1fr;
   }
+
 }
