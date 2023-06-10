@@ -1,201 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="128x128" href="Asset/Images/Icons/Logo.png" />
-  <!-- STYLE SHEET -->
-  <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="Asset/Images/Icons/Logo.png" />
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- FONT STYLE  -->
-  <script src="https://kit.fontawesome.com/c190620e84.js" crossorigin="anonymous"></script>
-  <title>Blog Website</title>
-</head>
+    <!-- FONT STYLE  -->
+    <script
+      src="https://kit.fontawesome.com/c190620e84.js"
+      crossorigin="anonymous"></script>
+    <title>Blog Website</title>
+  </head>
 
-<body>
-  <!-- HEADER SECTION  -->
-  <div id="backdrop">
-    <section id="header">
-      <a href="#"><img class="logo" src="Asset/Images/Hero-Section/Logo.png" alt="logo" /></a>
+  <body>
+    <!-- HEADER SECTION  -->
+    <div id="backdrop">
+      <section id="header">
+        <a href="#"
+          ><img
+            class="logo"
+            src="Asset/Images/Hero-Section/Logo.png"
+            alt="logo"
+        /></a>
 
-      <div>
-        <ul id="navbar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Gaming</a></li>
-          <li><a href="#">Health</a></li>
-          <li class="right-end">
-            <div class="search-container">
-              <input type="text" class="search-input" placeholder="Search..." />
-              <button class="search-button" type="submit">
-                <img src="Asset/Images/Icons/search.png" alt="Search" width="20" height="20" />
-              </button>
+        <div>
+          <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Gaming</a></li>
+            <li><a href="#">Health</a></li>
+            <li class="right-end">
+              <div class="search-container">
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Search..." />
+                <button class="search-button" type="submit">
+                  <img
+                    src="Asset/Images/Icons/search.png"
+                    alt="Search"
+                    width="20"
+                    height="20" />
+                </button>
+              </div>
+            </li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+          </ul>
+        </div>
+        <div id="mobile">
+          <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+      </section>
+
+      <!-- HERO SECTION -->
+      <section id="hero-section">
+        <span class="backdrop-red">LIFESTYLE</span>
+        <h1>
+          <p class="backdrop-white first">Be Inspired With Dark</p>
+          <p class="backdrop-white second">Photo And Colorful</p>
+          <p class="backdrop-white third">Indoor Style</p>
+        </h1>
+
+        <div class="dummy-time-stamp">
+          <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
+          <span>Kazeem James</span>
+          <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
+          <span> Apr 24, 2018</span>
+        </div>
+      </section>
+    </div>
+
+    <!-- SUB HERO SECTION -->
+    <section id="overlap-hero-section">
+      <div class="business container">
+        <img src="Asset/Images/Sub-Hero/Business.png" alt="Business" />
+        <a href="#">10 Essential Tips for Effective Time Management</a>
+        <div class="dummy-time-stamp box">
+          <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
+          <span>Kazeem James</span>
+          <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
+          <span> Apr 24, 2018</span>
+        </div>
+      </div>
+      <div class="gaming container">
+        <img src="Asset/Images/Sub-Hero/Gaming.png" alt="Gaming" />
+        <a href="#">The Benefits of Mindfulness in Everyday Life</a>
+        <div class="dummy-time-stamp box">
+          <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
+          <span>Kazeem James</span>
+          <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
+          <span> Apr 24, 2018</span>
+        </div>
+      </div>
+      <div class="health container">
+        <img src="Asset/Images/Sub-Hero/Health.png" alt="Health" />
+        <a href="#">Exploring the Power of Positive Thinking</a>
+        <div class="dummy-time-stamp box">
+          <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
+          <span>Kazeem James</span>
+          <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
+          <span> Apr 24, 2018</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MORE OF US SECTION  -->
+    <section id="more-of-us-section">
+      <h2>MORE FROM US</h2>
+      <div class="blog-container">
+        <div class="blog-container-box">
+          <img
+            src="Asset/Images/More-From-Us-Section/How-to-Cultivate.png"
+            alt="" />
+          <div class="blog-text">
+            <img
+              src="Asset/Images/More-From-Us-Section/Business-MRFS.png"
+              alt="" />
+            <a href="#">How to Cultivate a Growth Mind...</a>
+            <div class="dummy-time-stamp grid-box">
+              <img
+                class="small"
+                src="Asset/Images/Icons/kareem-dp.png"
+                alt="Kazeem James Dp" />
+              <span>Kazeem James</span>
+              <img
+                class="small"
+                src="Asset/Images/Icons/clock.png"
+                alt="Clock Icon" />
+              <span> Apr 24, 2018</span>
             </div>
-          </li>
-          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-        </ul>
-      </div>
-      <div id="mobile">
-        <i id="bar" class="fa-solid fa-outdent"></i>
+          </div>
+        </div>
+
+        <div class="blog-container-box">
+          <img src="Asset/Images/More-From-Us-Section/Navigate.png" alt="" />
+          <div class="blog-text">
+            <img
+              src="Asset/Images/More-From-Us-Section/Health-Green.png"
+              alt="" />
+            <a href="#">Navigating the World of Onlin...</a>
+            <div class="dummy-time-stamp grid-box">
+              <img
+                class="small"
+                src="Asset/Images/Icons/kareem-dp.png"
+                alt="Kazeem James Dp" />
+              <span>Kazeem James</span>
+              <img
+                class="small"
+                src="Asset/Images/Icons/clock.png"
+                alt="Clock Icon" />
+              <span> Apr 24, 2018</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-container-box">
+          <img src="Asset/Images/More-From-Us-Section/Art.png" alt="" />
+          <div class="blog-text">
+            <img
+              src="Asset/Images/More-From-Us-Section/Business-Blue.png"
+              alt="" />
+            <a href="#">The Art of Public Speaking:Over...</a>
+            <div class="dummy-time-stamp grid-box">
+              <img
+                class="small"
+                src="Asset/Images/Icons/kareem-dp.png"
+                alt="Kazeem James Dp" />
+              <span>Kazeem James</span>
+              <img
+                class="small"
+                src="Asset/Images/Icons/clock.png"
+                alt="Clock Icon" />
+              <span> Apr 24, 2018</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-container-box">
+          <img
+            src="Asset/Images/More-From-Us-Section/Unlocking-Creativity.png"
+            alt="" />
+          <div class="blog-text">
+            <img
+              src="Asset/Images/More-From-Us-Section/Health-Green.png"
+              alt="" />
+            <a href="#">Unlocking Creativity: stra...</a>
+            <div class="dummy-time-stamp grid-box">
+              <img
+                class="small"
+                src="Asset/Images/Icons/kareem-dp.png"
+                alt="Kazeem James Dp" />
+              <span>Kazeem James</span>
+              <img
+                class="small"
+                src="Asset/Images/Icons/clock.png"
+                alt="Clock Icon" />
+              <span> Apr 24, 2018</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-container-box">
+          <img
+            src="Asset/Images/More-From-Us-Section/Mastering-the-art.png"
+            alt="" />
+          <div class="blog-text">
+            <img
+              src="Asset/Images/More-From-Us-Section/Business-Blue.png"
+              alt="" />
+            <a href="#">Mastering the Art of Negotiati...</a>
+            <div class="dummy-time-stamp grid-box">
+              <img
+                class="small"
+                src="Asset/Images/Icons/kareem-dp.png"
+                alt="Kazeem James Dp" />
+              <span>Kazeem James</span>
+              <img
+                class="small"
+                src="Asset/Images/Icons/clock.png"
+                alt="Clock Icon" />
+              <span> Apr 24, 2018</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-container-box">
+          <img src="Asset/Images/More-From-Us-Section/Health.svg" alt="" />
+          <div class="blog-text">
+            <img
+              src="Asset/Images/More-From-Us-Section/Health-Green.png"
+              alt="" />
+            <a href="#">Healthy Living Made Easy: Pra...</a>
+            <div class="dummy-time-stamp grid-box">
+              <img
+                class="small"
+                src="Asset/Images/Icons/kareem-dp.png"
+                alt="Kazeem James Dp" />
+              <span>Kazeem James</span>
+              <img
+                class="small"
+                src="Asset/Images/Icons/clock.png"
+                alt="Clock Icon" />
+              <span> Apr 24, 2018</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- HERO SECTION -->
-    <section id="hero-section">
-      <span class="backdrop-red">LIFESTYLE</span>
-      <h1>
-        <p class="backdrop-white first">Be Inspired With Dark</p>
-        <p class="backdrop-white second">Photo And Colorful</p>
-        <p class="backdrop-white third">Indoor Style</p>
-      </h1>
-
-      <div class="dummy-time-stamp">
-        <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-        <span>Kazeem James</span>
-        <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-        <span> Apr 24, 2018</span>
-      </div>
+    <!-- ADS -->
+    <section id="ads">
+      <p>ADS</p>
     </section>
-  </div>
 
-  <!-- SUB HERO SECTION -->
-  <section id="overlap-hero-section">
-    <div class="business container">
-      <img src="Asset/Images/Sub-Hero/Business.png" alt="Business" />
-      <a href="#">10 Essential Tips for Effective Time Management</a>
-      <div class="dummy-time-stamp box">
-        <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-        <span>Kazeem James</span>
-        <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-        <span> Apr 24, 2018</span>
-      </div>
-    </div>
-    <div class="gaming container">
-      <img src="Asset/Images/Sub-Hero/Gaming.png" alt="Gaming" />
-      <a href="#">The Benefits of Mindfulness in Everyday Life</a>
-      <div class="dummy-time-stamp box">
-        <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-        <span>Kazeem James</span>
-        <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-        <span> Apr 24, 2018</span>
-      </div>
-    </div>
-    <div class="health container">
-      <img src="Asset/Images/Sub-Hero/Health.png" alt="Health" />
-      <a href="#">Exploring the Power of Positive Thinking</a>
-      <div class="dummy-time-stamp box">
-        <img src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-        <span>Kazeem James</span>
-        <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-        <span> Apr 24, 2018</span>
-      </div>
-    </div>
-  </section>
+    <!-- MORE OF US CONT'D -->
+    <section id="mfs">
+      <h2>MORE OF US</h2>
 
-  <!-- MORE OF US SECTION  -->
-  <section id="more-of-us-section">
-    <h2>MORE FROM US</h2>
-    <div class="blog-container">
-      <div class="blog-container-box">
-        <img src="Asset/Images/More-From-Us-Section/How-to-Cultivate.png" alt="" />
-        <div class="blog-text">
-          <img src="Asset/Images/More-From-Us-Section/Business-MRFS.png" alt="" />
-          <a href="#">How to Cultivate a Growth Mind...</a>
-          <div class="dummy-time-stamp grid-box">
-            <img class="small" src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-            <span>Kazeem James</span>
-            <img class="small" src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-            <span> Apr 24, 2018</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="blog-container-box">
-        <img src="Asset/Images/More-From-Us-Section/Navigate.png" alt="" />
-        <div class="blog-text">
-          <img src="Asset/Images/More-From-Us-Section/Health-Green.png" alt="" />
-          <a href="#">Navigating the World of Onlin...</a>
-          <div class="dummy-time-stamp grid-box">
-            <img class="small" src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-            <span>Kazeem James</span>
-            <img class="small" src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-            <span> Apr 24, 2018</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="blog-container-box">
-        <img src="Asset/Images/More-From-Us-Section/Art.png" alt="" />
-        <div class="blog-text">
-          <img src="Asset/Images/More-From-Us-Section/Business-Blue.png" alt="" />
-          <a href="#">The Art of Public Speaking:Over...</a>
-          <div class="dummy-time-stamp grid-box">
-            <img class="small" src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-            <span>Kazeem James</span>
-            <img class="small" src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-            <span> Apr 24, 2018</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="blog-container-box">
-        <img src="Asset/Images/More-From-Us-Section/Unlocking-Creativity.png" alt="" />
-        <div class="blog-text">
-          <img src="Asset/Images/More-From-Us-Section/Health-Green.png" alt="" />
-          <a href="#">Unlocking Creativity: stra...</a>
-          <div class="dummy-time-stamp grid-box">
-            <img class="small" src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-            <span>Kazeem James</span>
-            <img class="small" src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-            <span> Apr 24, 2018</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="blog-container-box">
-        <img src="Asset/Images/More-From-Us-Section/Mastering-the-art.png" alt="" />
-        <div class="blog-text">
-          <img src="Asset/Images/More-From-Us-Section/Business-Blue.png" alt="" />
-          <a href="#">Mastering the Art of Negotiati...</a>
-          <div class="dummy-time-stamp grid-box">
-            <img class="small" src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-            <span>Kazeem James</span>
-            <img class="small" src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-            <span> Apr 24, 2018</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="blog-container-box">
-        <img src="Asset/Images/More-From-Us-Section/Health.svg" alt="" />
-        <div class="blog-text">
-          <img src="Asset/Images/More-From-Us-Section/Health-Green.png" alt="" />
-          <a href="#">Healthy Living Made Easy: Pra...</a>
-          <div class="dummy-time-stamp grid-box">
-            <img class="small" src="Asset/Images/Icons/kareem-dp.png" alt="Kazeem James Dp" />
-            <span>Kazeem James</span>
-            <img class="small" src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
-            <span> Apr 24, 2018</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ADS -->
-  <section id="ads">
-    <p>ADS</p>
-  </section>
-
-  <!-- MORE OF US CONT'D -->
-  <section id="mfs">
-    <h2>MORE OF US</h2>
-
-    <div class="mfs-container">
-      <div class="mfs-container-bx">
+      <div class="mfs-container">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/The-impart.svg" alt="" />
           <a href="#">The Impact of Social Media on Mental Hea...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -204,9 +276,9 @@
             <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
             <span> Apr 24, 2018</span>
           </div>
-      </div>
+        </div>
 
-      <div class="mfs-container-bx">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/Discovering.svg" alt="" />
           <a href="#">Discovering the Joy of Minimalism: Simplif...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -215,9 +287,9 @@
             <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
             <span> Apr 24, 2018</span>
           </div>
-    </div>
+        </div>
 
-      <div class="mfs-container-bx">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/The-Power.svg" alt="" />
           <a href="#">The Power of Gratitude: Tranform...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -228,7 +300,7 @@
           </div>
         </div>
 
-      <div class="mfs-container-bx">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/Effective.svg" alt="" />
           <a href="#">Effective Strategies for Building and Mai...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -237,9 +309,9 @@
             <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
             <span> Apr 24, 2018</span>
           </div>
-    </div>
+        </div>
 
-      <div class="mfs-container-bx">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/Exploring.svg" alt="" />
           <a href="#">The Future of Technology: Explori...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -248,9 +320,9 @@
             <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
             <span> Apr 24, 2018</span>
           </div>
-    </div>
+        </div>
 
-      <div class="mfs-container-bx">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/From-ideas.svg" alt="" />
           <a href="#">From Idea to Reality: Steps to Launching Y...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -259,9 +331,9 @@
             <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
             <span> Apr 24, 2018</span>
           </div>
-    </div>
+        </div>
 
-      <div class="mfs-container-bx">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/The-Science.svg" alt="" />
           <a href="#">The Science of Sleep: Unraveling the Myst...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -270,9 +342,9 @@
             <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
             <span> Apr 24, 2018</span>
           </div>
-    </div>
+        </div>
 
-      <div class="mfs-container-bx">
+        <div class="mfs-container-bx">
           <img src="Asset/Images/section-4/The-impart.svg" alt="" />
           <a href="#">The Impact of Social Media on Mental Hea...</a>
           <div class="dummy-time-stamp mfs-stamp">
@@ -281,55 +353,58 @@
             <img src="Asset/Images/Icons/clock.png" alt="Clock Icon" />
             <span> Apr 24, 2018</span>
           </div>
-    </div>
-
-    </div>
-  </section>
-
-<!-- FOOTER SECTION  -->
-  <footer id="footer">
-    <div class="three-div-wrapper">
-      <div class="about-us width">
-        <h3>ABOUT US</h3>
-        <p>Lorem ipsum dolor sit amet consectetur. Quis diam risus elit viverra libero malesuada mauris id. Sapien tincidunt sit facilisis vestibulum eu est. Id justo tempor non ultricies tincidunt enim ut. Viverra nisi sit et volutpat.</p>
-        <div class="icons">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
         </div>
       </div>
-      <div class="recent-post width">
-        <h3>RECENT POSTS</h3>
-        <a href="#">From Idea to Reality: Steps to Launching Y...</a>
-        <a href="#">The Science of Sleep: Unraveling the Myst...</a>
-        <a href="#">The Future of Technology: Explori...</a>
-        <a href="#">The Impact of Social Media on Mental Hea...</a>
-      </div>
-      <div class="newsletter width">
-        <h3>NEWSLETTER</h3>
-        <form>
-          <input type="email" placeholder="Your Email Address" />
-        </form>
-        <a href="">SIGN UP</a>
-      </div>
-    </div>
-    <div class="bottom-spaced-div">
-      <div class="copyright-2">
-        <p>Copyright. All rights reserved</p>
-      </div>
-      <div class="copyright">
-        <a href="">About us </a> | <a href="">Privacy policy</a>
-      </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- SCROLL UP BUTTON -->
-  <a href="#" id="scrollToTopButton" class="scroll-to-top-button">
-    <i class="fas fa-arrow-up"></i>
-  </a>
-</body>
-<!-- JAVASCRIPT  -->
-<script src="Asset/Javascript/script.js"></script>
+    <!-- FOOTER SECTION  -->
+    <footer id="footer">
+      <div class="three-div-wrapper">
+        <div class="about-us width">
+          <h3>ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quis diam risus elit viverra
+            libero malesuada mauris id. Sapien tincidunt sit facilisis
+            vestibulum eu est. Id justo tempor non ultricies tincidunt enim ut.
+            Viverra nisi sit et volutpat.
+          </p>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+        <div class="recent-post width">
+          <h3>RECENT POSTS</h3>
+          <a href="#">From Idea to Reality: Steps to Launching Y...</a>
+          <a href="#">The Science of Sleep: Unraveling the Myst...</a>
+          <a href="#">The Future of Technology: Explori...</a>
+          <a href="#">The Impact of Social Media on Mental Hea...</a>
+        </div>
+        <div class="newsletter width">
+          <h3>NEWSLETTER</h3>
+          <form>
+            <input type="email" placeholder="Your Email Address" />
+          </form>
+          <a href="">SIGN UP</a>
+        </div>
+      </div>
+      <div class="bottom-spaced-div">
+        <div class="copyright-2">
+          <p>Copyright. All rights reserved</p>
+        </div>
+        <div class="copyright">
+          <a href="">About us </a> | <a href="">Privacy policy</a>
+        </div>
+      </div>
+    </footer>
 
+    <!-- SCROLL UP BUTTON -->
+    <a href="#" id="scrollToTopButton" class="scroll-to-top-button">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </body>
+  <!-- JAVASCRIPT  -->
+  <script src="Asset/Javascript/script.js"></script>
 </html>
