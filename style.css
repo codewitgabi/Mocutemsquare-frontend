@@ -105,6 +105,24 @@ body {
   transition: 0.3s ease;
 }
 
+#navbar li a:hover {
+  color: var(--red);
+}
+
+#navbar li a:hover {
+  color: var(--red);
+}
+
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: var(--red);
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
 
 .search-container {
   display: flex;
