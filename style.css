@@ -115,7 +115,7 @@ body {
 
 #navbar li a:hover::after {
   content: "";
-  width: 30%;
+  width: 50%;
   height: 2px;
   background: var(--red);
   position: absolute;
