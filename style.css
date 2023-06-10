@@ -64,11 +64,10 @@ body {
 
 #backdrop {
   background-image: url(Asset/Images/Hero-Section/Hero-svg.svg);
-  /* background-position: top 50% right 30%; */
-  height: 100vh;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+
 }
 
 /* HEADER SECTION  */
@@ -76,6 +75,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px 80px;
+  position: relative;
 }
 
 .logo {
@@ -105,21 +105,6 @@ body {
   transition: 0.3s ease;
 }
 
-/* #navbar li a:hover,
-#navbar li a.active {
-  color: var(--white);
-}
-
-#navbar li a.active::after,
-#navbar li a:hover::after {
-  content: "";
-  width: 30%;
-  height: 2px;
-  background: var(--white);
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-} */
 
 .search-container {
   display: flex;
@@ -203,12 +188,14 @@ body {
 
 /* SUB HERO SECTION */
 #overlap-hero-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
   gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   padding: 0px 80px 30px;
   position: absolute;
-  top: 620px;
+  top: 550px;
 }
 
 .container {
@@ -219,8 +206,8 @@ body {
   background-image: url(Asset/Images/Sub-Hero/bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 297px;
-  height: 200px;
+  width: 375px;
+  height: 250px;
   padding: 10px 10px 0 10px;
 }
 
@@ -309,7 +296,6 @@ body {
   }
 
   #backdrop {
-    /* background-image: url(Asset/Images/Hero-Section/HERO.png); */
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -348,14 +334,11 @@ body {
 
   /* SUB HERO SECTION */
   #overlap-hero-section {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 0;
+    flex-direction: column;
     gap: 24px;
     padding: 20px 39px 30px;
     margin: 0 auto;
-    position: absolute;
-    /* top: 550px; */
+    position: inherit;
   }
 
   .box {
