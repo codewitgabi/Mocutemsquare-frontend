@@ -491,9 +491,14 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .mfs-container {
+    grid-template-columns: repeat(2, 1fr);
+      padding: 0px 20px 50px;
+  }
+
 }
 
-@media (max-width: 799px) {
+@media (max-width: 850px) {
   .section-p1 {
     padding: 40px 40px;
   }
@@ -618,10 +623,7 @@ body {
  
 
   /* MORE OF US CONT'D  */
-  .mfs-container {
-    grid-template-columns: repeat(2, 1fr);
-      padding: 0px 20px 50px;
-  }
+
 }
 
 
